@@ -1,5 +1,5 @@
 # bene-shipwright
-bene-shipwright is a plugin for Endless Sky containing all of (https://github.com/bene-dictator)[bene-dictator]'s vanilla-ish ships and outfits.
+bene-shipwright is a plugin for [Endless Sky](https://github.com/endless-sky/endless-sky) containing all of [bene-dictator](https://github.com/bene-dictator)'s vanilla-ish ships and outfits.
 
 Anyone is free to use the data and images in this repository under the terms of the APGL-3.0 licence.
 

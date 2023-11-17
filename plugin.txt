@@ -1,2 +1,2 @@
 name "bene-shipwright"
-about "bene-shipwright is bene-dictator's plugin containing all their custom Endless Sky ships and outfits. GitHub link: https://github.com/bene-dictator/bene-shipwright"
+about "bene-shipwright is a plugin that contains all of bene-dictator's vanilla-ish ships and outfits. GitHub link: https://github.com/bene-dictator/bene-shipwright"
