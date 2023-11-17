@@ -1,13 +1,42 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: {{your plugin name here}}
-Upstream-Contact: {{your name here}} <{{your email here}}>
-Source: {{your plugin github url here}}
+Upstream-Name: bene-shipwright
+Upstream-Contact: bene-dictator (benstaples8068@gmail.com)
+Source: https://github.com/bene-dictator/bene-shipwright
 
-Files: *
-Copyright: {{your name and email again}}
-
-Files:
- icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
+Copyright: bene-dictator (benstaples8068@gmail.com)
 License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
+Comment: Derived from works by Michael Zahniser (under the same license).
+
+files:
+ icon*.png
+Copyright: bene_dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser and artwork from the 1995 Bungie game, Marathon 2: Durandal.
+
+files:
+ images/outfit/burster*.png
+Copyright: bene-dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (mzahniser@gmail.com) and Becca Tommaso (tommasobecca03@gmail.com).
+
+files:
+ images/outfit/dual proton turret*.png
+Copyright: bene-dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (mzahniser@gmail.com) and Becca Tommaso (tommasobecca03@gmail.com).
+
+files:
+ images/ship/mercantor*.png
+ images/thumbnail/mercantor*.png
+Copyright: bene-dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (mzahniser@gmail.com) and Becca Tommaso (tommasobecca03@gmail.com).
+
+files:
+ images/ship/thunderbird*.png
+ images/thumbnail/thunderbird*.png
+Copyright: bene_dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (mzahniser@gmail.com) and Becca Tommaso (tommasobecca03@gmail.com).
+
+
