@@ -1,0 +1,12 @@
+ship Splinter "Splinter (Dual Proton Turret)"
+	outfits
+		"D94-YV Shield Generator"
+		"Dual Proton Turret" 2
+		"Fission Reactor"
+		Hyperdrive
+		"Impala Plasma Steering"
+		"LP036a Battery Pack"
+		"Laser Rifle" 2
+		"Proton Gun" 2
+		"Water Coolant System"
+		"X3700 Ion Thruster"

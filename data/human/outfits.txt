@@ -1,0 +1,56 @@
+outfit 
+
+outfit "Dual Proton Turret"
+	category "Turrets"
+	plural "Dual Proton Turrets"
+	cost 540000
+	thumbnail "outfit/dual proton turret"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/proton"
+		"hardpoint sprite" "hardpoint/dual proton turret"
+		"hardpoint offset" 14.
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 4
+		"turret turn" 1.4
+		"submunition" "Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 4
+		"firing energy" 15
+		"firing force" 2
+		"firing heat" 60
+	description "The Dual Proton Turret is the continuation of the Syndicate's development of the Proton Gun and its turret. Given the lack of any Particle Cannon turret so far, Syndicated Systems hopes to corner the market in turret-based heavy defence systems before Lovelace can even get started."
+
+# Inspired by 1010todd's "Overdriven Modified Blaster" from Scrapper Extras.
+# The original can be found at https://github.com/endless-sky/endless-sky/files/10608312/Scrapper.Extras.zip
+
+outfit "Energy Burster" 
+	category "Guns"
+	cost 22000
+	thumbnail "outfit/burster"
+	"mass" 6
+	"outfit space" -6
+	"weapon capacity" -6
+	"gun ports" -1
+	weapon
+		sprite "projectile/blaster"
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"inaccuracy" 5
+		"velocity" 10.8
+		"lifetime" 44
+		"reload" 12
+		"burst count" 24
+		"burst reload" 1
+		"firing energy" 6.5
+		"firing heat" 22
+		"shield damage" 10.6
+		"hull damage" 6.6
+	description `This is a modification to the Energy Blaster that, rather than increasing the damage of each shot, instead increases the blaster's firerate significantly for a short period of time, although at the cost of a long cooldown period and a lot of heat.`
+	description `	The result is a weapon that can deal out significant damage in seconds, but necessitates its operator to retreat after an attack to allow it to cool down.`

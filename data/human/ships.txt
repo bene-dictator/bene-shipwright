@@ -1,0 +1,104 @@
+# At the moment the Mercantor is almost identical to the Syndicate Freighter in stats.
+
+ship "Mercantor"
+	sprite "ship/mercantor"
+	attributes
+		category "Light Freighter"
+		"cost" 730000
+		"shields" 2000
+		"hull" 2000
+		"required crew" 2
+		"bunks" 7
+		"mass" 240
+		"drag" 5.6
+		"heat dissipation" .6
+		"fuel capacity" 300
+		"cargo space" 150
+		"outfit space" 250
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Laser Turret" 2
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"	
+	engine 12 87 
+	engine -12 87 
+	turret 0 -39 "Laser Turret" 
+	turret 0 64 "Laser Turret" 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description "The systems of the Deep are some of the most populous in human space, and its long independent history has led to a unique line of locally-designed ships whose development are somewhat separated from the rest of humanity."
+	description "	The Mercantor is one of those ships, a freighter used for light courier work between Deep systems. Somewhat older than its competition, it is nonetheless a fast ship for its role and is often the starting point for aspiring Deep captains. However, it has a rather low stock fuel capacity, so it is not often found far from its home systems."
+
+ship "Thunderbird"
+	sprite "ship/thunderbird"
+	thumbnail "thumbnail/thunderbird"
+	attributes
+		category "Medium Warship"
+		cost 3700000
+		"mass" 350
+		"outfit space" 420
+		"engine capacity" 130
+		"weapon capacity" 165
+		"cargo space" 40
+		"shields" 3200
+		"hull" 4200
+		"fuel capacity" 500
+		"heat dissipation" .4
+		"required crew" 9
+		"drag" 5.5
+		"bunks" 18
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Anti-Missile Turret"
+		"D41-HY Shield Generator"
+		Hyperdrive
+		"LP144a Battery Pack"
+		"Laser Rifle" 3
+		"Meteor Missile" 60
+		"Meteor Missile Launcher" 2
+		"Particle Cannon" 2
+		"Quad Blaster Turret" 2
+		"RT-I Radiothermal"
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		"nGVF-AA Fuel Cell"
+	engine 32 80
+	engine -32 80
+	gun -27 -32 "Particle Cannon"
+	gun 27 -32 "Particle Cannon"
+	gun -47 -8 "Meteor Missile Launcher"
+	gun 47 -8 "Meteor Missile Launcher"
+	turret 0 1 "Anti-Missile Turret"
+	turret 36 40 "Quad Blaster Turret"
+	turret -36 40 "Quad Blaster Turret"
+	leak leak 50 50
+	leak flame 30 80
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	"final explode" "final explosion medium"
+	description "The Thunderbird is a variant of the Firebird that is generally found in Coreward space. Like its cousin, it is a very tough ship that can simultaneously deal and take a large amount of fire, but it is bulkier and somewhat less up-to-date than the current iteration of the Firebird."
+	description "	The Thunderbird diverged from the Firebird at a time when shield emitters weren't as reliably powerful as they are now. As such, this model prioritizes thick, durable armor, originally designed to resist heavy impacts with debris and impact rounds in poorly patrolled regions of space after combat or natural phenomena disabled the shield matrix itself."
+	description "	Once making up the bulk of Syndicated Security fleets, Thunderbirds have largely been replaced by Megaparsec Splinters in the role of planetary defense and patrol owing to the Splinter's more modern and nimble design."
+
+

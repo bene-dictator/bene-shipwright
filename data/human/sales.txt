@@ -1,0 +1,11 @@
+shipyard "Lionheart Basics"
+	"Mercantor"
+
+shipyard "Syndicate Advanced"
+	"Thunderbird"
+
+outfitter "Syndicate Advanced"
+	"Dual Proton Turret"
+
+outfitter "Pirate Outfits"
+	"Energy Burster"
