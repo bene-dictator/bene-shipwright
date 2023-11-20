@@ -1,5 +1,3 @@
-outfit 
-
 outfit "Dual Proton Turret"
 	category "Turrets"
 	plural "Dual Proton Turrets"
@@ -25,14 +23,14 @@ outfit "Dual Proton Turret"
 		"firing energy" 15
 		"firing force" 2
 		"firing heat" 60
-	description "The Dual Proton Turret is the continuation of the Syndicate's development of the Proton Gun and its turret. Given the lack of any Particle Cannon turret so far, Syndicated Systems hopes to corner the market in turret-based heavy defence systems before Lovelace can even get started."
+	description "The Dual Proton Turret is the continuation of the Syndicate's development of the Proton Gun. Given the lack of any Particle Cannon turret so far, Syndicated Systems hopes to corner the market in turret-based heavy defence systems."
 
 # Inspired by 1010todd's "Overdriven Modified Blaster" from Scrapper Extras.
 # The original can be found at https://github.com/endless-sky/endless-sky/files/10608312/Scrapper.Extras.zip
 
-outfit "Energy Burster" 
+outfit "Energy Burster"
 	category "Guns"
-	cost 22000
+	cost 65000
 	thumbnail "outfit/burster"
 	"mass" 6
 	"outfit space" -6
@@ -42,15 +40,16 @@ outfit "Energy Burster"
 		sprite "projectile/blaster"
 		sound "blaster"
 		"hit effect" "blaster impact"
-		"inaccuracy" 5
+		"inaccuracy" 10
 		"velocity" 10.8
 		"lifetime" 44
 		"reload" 12
 		"burst count" 24
 		"burst reload" 1
 		"firing energy" 6.5
-		"firing heat" 22
+		"firing heat" 40
 		"shield damage" 10.6
 		"hull damage" 6.6
-	description `This is a modification to the Energy Blaster that, rather than increasing the damage of each shot, instead increases the blaster's firerate significantly for a short period of time, although at the cost of a long cooldown period and a lot of heat.`
-	description `	The result is a weapon that can deal out significant damage in seconds, but necessitates its operator to retreat after an attack to allow it to cool down.`
+		cluster
+	description `This unlicensed modification of the Energy Blaster doesn't increase the strength of the blaster's energy bolts, but instead shoots a rapid barrage of them at the cost of a long cooldown period. It is a weapon favored by pirates in interceptors to rapidly take down larger ships and retreat while it cools down.`
+	description `	Because its housing wasn't made for dense burst fire created by overloading the energy bolt generators, the Burster tends to melt in a protracted firefight.`
